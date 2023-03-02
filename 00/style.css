@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+}
+
+.site{
+    display: inline-block;
+    margin: 30px 100px;
+}
+
+.main{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.top-message{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.top-message-main{
+    color: red;
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+}
+
+.top-message-description{
+    font-size: 20px;
+}
+
+.top-message-sub{
+    color: #444;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.message-div{
+    text-align: left;
+    border-bottom: 1px lightgray solid;
+    margin-bottom: 30px;
+}
+
+.content-div{
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    padding: 20px;
+    background: #eee;
+}
+
+.content-title{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+
+.hyperlink{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 0.25em;
+    border-left: solid 7px #00a8f3;
+    font-size: 35px;
+    color: black;
+}
+
+.game-image{
+    margin-right: 20px;
+}
