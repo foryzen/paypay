@@ -9,13 +9,50 @@ var data = {
 fetch(url,data)
 
 function click_link(x){
+    if(x==1){
+        var game_name = 'ロードモバイル'
+        var game_url = 'https://www.chirugame.com/?p=1153'
+    }else if(x==2){
+        var game_name = '新信長の野望'
+        var game_url = 'https://www.chirugame.com/?p=1079'
+    }else if(x==3){
+        var game_name = '華の武の戦国'
+        var game_url = 'http://www.awing.appdownloadzzz.com/?p=1'
+    }else if(x==4){
+        var game_name = '17Live'
+        var game_url = 'https://www.chirugame.com/?p=1664'
+    }else if(x==5){
+        var game_name = 'IRIAM'
+        var game_url = 'https://www.chirugame.com/?p=1047'
+    }else if(x==6){
+        var game_name = '花咲く女帝の人生'
+        var game_url = 'https://steragame.com/?p=1797'
+    }else if(x==7){
+        var game_name = 'モンスターファーム'
+        var game_url = 'https://steragame.com/?p=1816'
+    }else if(x==8){
+        var game_name = 'TRAHA INFINITY'
+        var game_url = 'https://steragame.com/?p=1822'
+    }else if(x==9){
+        var game_name = 'あんさんぶるスターズ'
+        var game_url = 'https://steragame.com/?p=1741'
+    }else if(x==10){
+        var game_name = '信長の覇道'
+        var game_url = 'https://steragame.com/?p=1601'
+    }else if(x==11){
+        var game_name = 'Pococha'
+        var game_url = 'https://steragame.com/?p=1026'
+    }
+
     var data = {
         method:'POST',mode:'cors',
         headers:{'Content-type':'application/json'},
-        body:JSON.stringify({'username':'foryzen bot','content':`${x} link click [g01k4]`})
+        body:JSON.stringify({'username':'foryzen bot','content':`${game_name} link click [g01k4]`})
     }
     
     fetch(url,data)
+
+    setTimeout(()=>{location.href = game_url},1000)
 }
 
 function sc(x){
