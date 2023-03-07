@@ -1,11 +1,11 @@
 body{
     text-align: center;
     background: #fbfbfb;
+    margin: 0;
 }
 
 .site{
     display: inline-block;
-    margin: 30px 100px;
 }
 
 .main{
@@ -101,4 +101,9 @@ body{
 
 .spn04{
     font-size:50px;
+}
+
+.spn05{
+    font-size:30px;
+    color:red;
 }
