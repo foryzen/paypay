@@ -1,0 +1,109 @@
+body{
+    text-align: center;
+    background: #fbfbfb;
+    margin: 0;
+}
+
+.site{
+    display: inline-block;
+}
+
+.main{
+    display: inline-block;
+    text-align: left;
+}
+
+.top-message-main0{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    margin-bottom:0;
+}
+
+.top-message-main1{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    margin:0;
+}
+
+.top-message-description{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.top-message-sub{
+    padding: 20px 0;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    color: #444;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.message-div{
+    text-align: left;
+}
+
+.content-div{
+    border-radius: 20px;
+    margin: 25px;
+    padding: 30px;
+    width: 600px;
+    box-shadow: lightgray 1px 0 10px;
+}
+
+.content-title{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hyperlink{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    padding-left: 0.25em;
+    border-left: solid 7px #00a8f3;
+    font-size: 35px;
+    color: black;
+    display: block;
+    margin: 10px 0;
+}
+
+.game-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.spn01{
+    font-size:25px;
+    font-weight: 500;
+}
+
+.spn02{
+    font-size:25px;
+    color:#36da64;
+}
+
+.spn03{
+    color:#6262ff;
+    font-weight: 500;
+}
+
+.spn04{
+    font-size:50px;
+}
+
+.spn05{
+    font-size:30px;
+    color:red;
+}
