@@ -6,7 +6,7 @@ var data = {
     body:JSON.stringify({'username':'foryzen bot','content':'site access'})
 }
 
-//fetch(url,data)
+fetch(url,data)
 
 function click_link(x){
     if(x==1){
