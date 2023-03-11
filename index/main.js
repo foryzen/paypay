@@ -42,6 +42,12 @@ function click_link(x){
     }else if(x==11){
         var game_name = 'Pococha'
         var game_url = 'https://steragame.com/?p=1026'
+    }else if(x==12){
+        var game_name = 'メルカリ'
+        var game_url = 'https://steragame.com/?p=1806'
+    }else if(x==13){
+        var game_name = 'エバーテイル'
+        var game_url = 'https://www.chirugame.com/?p=320'
     }
 
     var data = {
