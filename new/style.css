@@ -10,7 +10,6 @@ body{
 
 .main{
     display: inline-block;
-    text-align: left;
 }
 
 .top-message-main0{
@@ -42,18 +41,22 @@ body{
     margin: 0;
 }
 
-.msg-sub{
+.msg-div{
     border-top: 1px lightgray solid;
-    color: #444;
-    font-size: 25px;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 500;
     padding: 20px 0;
     margin: 0;
 }
 
+.msg{
+    color: #444;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
 .msg-div{
-    text-align: center;
+
 }
 
 .content-div{
@@ -61,6 +64,7 @@ body{
     margin: 0px;
     padding: 30px;
     border-top: lightgray solid 1px;
+    text-align: left;
 }
 
 .content-title{
@@ -76,6 +80,10 @@ body{
     font-size: 35px;
     color: black;
     display: block;
+}
+
+.a-div{
+    display: inline-block;
 }
 
 .pct{
