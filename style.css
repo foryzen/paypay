@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    background: #fbfbfb;
+    margin: 0;
+}
+
+.site{
+    display: inline-block;
+}
+
+.main{
+    display: inline-block;
+}
+
+.top-message-main0{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    margin-bottom:0;
+}
+
+.top-message-main1{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    display: inline-block;
+    margin:0;
+}
+
+.description-div{
+    padding: 20px 0;
+}
+
+.description{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.msg-div{
+    border-top: 1px lightgray solid;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.msg{
+    color: #444;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.msg-div{
+
+}
+
+.content-div{
+    display: block;
+    margin: 0px;
+    padding: 30px;
+    border-top: lightgray solid 1px;
+    text-align: left;
+}
+
+.content-title{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hyperlink{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+    display: block;
+}
+
+.a-div{
+    display: inline-block;
+}
+
+.pct{
+    width: 100px;
+    height: 100px;
+}
+
+.spn01{
+    font-size:25px;
+    font-weight: 500;
+}
+
+.spn02{
+    font-size:25px;
+    color:#36da64;
+}
+
+.spn03{
+    color:#6262ff;
+    font-weight: 500;
+}
+
+.spn04{
+    font-size:50px;
+}
+
+.spn05{
+    font-size:30px;
+    color:red;
+}
